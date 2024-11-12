@@ -215,14 +215,14 @@ ClearCanvas.displayName = "ClearCanvas";
 export const ToggleTheme = (
   props:
     | {
-        allowSystemTheme: true;
-        theme: Theme | "system";
-        onSelect: (theme: Theme | "system") => void;
-      }
+      allowSystemTheme: true;
+      theme: Theme | "system";
+      onSelect: (theme: Theme | "system") => void;
+    }
     | {
-        allowSystemTheme?: false;
-        onSelect?: (theme: Theme) => void;
-      },
+      allowSystemTheme?: false;
+      onSelect?: (theme: Theme) => void;
+    },
 ) => {
   const { t } = useI18n();
   const appState = useUIAppState();
@@ -346,7 +346,7 @@ export const Socials = () => {
     <>
       <DropdownMenuItemLink
         icon={GithubIcon}
-        href="https://github.com/excalidraw/excalidraw"
+        href="https://github.com/Easiio-Inc/excalidraw"
         aria-label="GitHub"
       >
         GitHub
