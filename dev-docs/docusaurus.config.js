@@ -8,16 +8,16 @@ process.env.IS_PREACT = "false";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Excalidraw developer docs",
+  title: "Easiiodraw developer docs",
   tagline:
-    "For Excalidraw contributors or those integrating the Excalidraw editor",
+    "For Easiiodraw contributors or those integrating the Easiiodraw editor",
   url: "https://docs.excalidraw.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "Excalidraw", // Usually your GitHub org/user name.
-  projectName: "excalidraw", // Usually your repo name.
+  organizationName: "Easiiodraw", // Usually your GitHub org/user name.
+  projectName: "easiiodraw", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
